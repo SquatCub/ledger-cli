@@ -1,0 +1,25 @@
+{
+  "name": "cli-ledger-impl",
+  "version": "1.0.0",
+  "description": "NodeJS implementation of ledger",
+  "main": "cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "CLI",
+    "Ledger"
+  ],
+  "author": "Bran RM",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "commander": "^9.2.0",
+    "conf": "^10.1.2",
+    "fs": "^0.0.1-security"
+  },
+  "type": "module",
+  "bin": {
+      "cli": "./index.js"
+  }
+}
